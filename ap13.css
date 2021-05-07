@@ -1,0 +1,119 @@
+body {
+	text-align: center;
+	margin: 10px 5%;
+	background-image: url('./bg.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	
+}
+section {
+	background-color: #C6C6C6;
+	margin-top: -10px;
+	padding-bottom: 60px;
+}
+header {
+	width: 100%; /* Ocupa el total del espacio dedicado para el en la página */
+	display: inline-flex; /* Convierte el contenedor en FlexBox colocados en la misma linea */
+	background-color: #313131;
+	color: #C6C6C6;	
+}
+header img {
+	width: 20%;
+	height: 20%;
+	flex-flow: row wrap;
+	filter: invert(70%);
+	
+}
+#suckerlogo {
+	width: 50%;
+	align-items: center;
+	margin-top: 10px;
+}
+#treslogo {
+	width: 18%;
+	align-items: center;
+}
+aside img {
+	width: 80%;
+}
+iframe {
+	width: 90%;
+	height: 40%;
+	align-self: center;
+}
+#cabeceraIzq {
+	width: 50%;
+	height: 100%;
+	align-self: center; /* El elemento se coloca centrado en la parte del contenedor que le corresponde*/
+	display: inline-flex; /* Convierte los elementos en elementos en linea */
+} 
+#cabeceraDrch {
+	width: 49%;
+	height: 100%;
+	align-self: center;
+	justify-content: right; /* Pega el contenido al margen derecho */
+	display: inline-block; /* Convierte los elementos en bloque */
+}
+#contenedorPrincipal {
+	display: inline-flex; /* Convierte los elementos del contenedor en FlexBox en la misma linea */
+	flex-flow: row wrap; /* Abreviación de flex-direction y flex-wrap */
+	justify-content: center; /* Coloca el contenido del contenedor centrado*/
+
+}
+aside {
+	width: 49%; /* Ocupa el 49% del espacio que le pertenece */
+	
+}
+article {
+	width: 49%;
+	flex-direction: column; /* Especifica cómo colocar los objetos en el FlexBox definiendo el eje principal y la dirección */
+	display: flex; /* Convierte los elementos del contenedor en FlexBox */
+}
+#datos {
+	font-family: tahoma;
+}
+span {
+	font-weight: bold;
+}
+#resumen {
+	font-family: tahoma;
+}
+div h3 {
+	width: 100%;
+	text-align: center;
+}
+#tituloPagina {
+	align-self: center; /* Se coloca centrado horizontalmente en el contenedor */
+	font-size: 3.2em;
+	margin-top: 8%;
+}
+h1 {
+	text-align: right;
+}
+#tituloActividad {
+	text-align: right;
+}
+a {
+	text-decoration: none;
+	float: right;
+	padding: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	color: #C6C6C6;
+	background-color: #313131;
+	font-family: tahoma;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
